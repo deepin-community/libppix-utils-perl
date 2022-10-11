@@ -1,0 +1,32 @@
+Source: libppix-utils-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libb-keywords-perl <!nocheck>,
+                     libppi-perl (>= 1.250) <!nocheck>,
+                     libscalar-list-utils-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
+                     perl
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libppix-utils-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libppix-utils-perl.git
+Homepage: https://metacpan.org/release/PPIx-Utils
+Rules-Requires-Root: no
+
+Package: libppix-utils-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libb-keywords-perl,
+         libppi-perl (>= 1.250),
+         libscalar-list-utils-perl
+Description: utility functions for PPI
+ PPIx::Utils is a collection of utility functions for working with PPI
+ documents. The functions are organized into submodules, and may be imported
+ from the appropriate submodule or via this module.
+ .
+ These functions were originally from Perl::Critic::Utils and related modules,
+ and have been split off to this distribution for use outside of Perl::Critic.

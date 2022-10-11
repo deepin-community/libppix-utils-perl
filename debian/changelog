@@ -1,0 +1,11 @@
+libppix-utils-perl (0.003-2) unstable; urgency=medium
+
+  * No-change source-only re-upload.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 29 Sep 2021 14:53:50 +0200
+
+libppix-utils-perl (0.003-1) unstable; urgency=low
+
+  * Initial release (closes: #995168).
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 27 Sep 2021 14:51:05 +0200
